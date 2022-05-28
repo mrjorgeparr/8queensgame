@@ -78,7 +78,7 @@ class Game:
                     return rank_file
         else:
             # we search for the file in the file dict corresponding to the perspective
-            for key,value in files_white.items():
+            for key,value in files_black.items():
                 if value == pos[1]:
                     rank_file += str(key)
                     rank_file += str(8 - pos[0])

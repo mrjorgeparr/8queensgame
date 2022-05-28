@@ -1,7 +1,7 @@
 import sys
 
 # read from cmd, we can play from white or blacks perspective
-# works when completing perfect solution without mistakes, revise threat computation
+
 
 files_white = {"a": 0, "b": 1, "c": 2, "d": 3, "e": 4, "f": 5, "g": 6, "h": 7}
 files_black = {"a": 7, "b": 6, "c": 5, "d": 4, "e": 3, "f": 2, "g": 1, "h": 0}
